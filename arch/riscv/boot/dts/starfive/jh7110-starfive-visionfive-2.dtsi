@@ -630,11 +630,6 @@
 	status = "okay";
 };
 
-&usb0 {
-	dr_mode = "peripheral";
-	status = "okay";
-};
-
 &U74_1 {
 	cpu-supply = <&vdd_cpu>;
 };
@@ -649,4 +644,9 @@
 
 &U74_4 {
 	cpu-supply = <&vdd_cpu>;
+};
+
+&usb0 {
+	dr_mode = "peripheral";
+	status = "okay";
 };
